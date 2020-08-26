@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Veganproject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">메인화면</string>
+    <string name="menu_diary">다이어리</string>
+    <string name="menu_map">비건 지도 안내</string>
+    <string name="menu_barcode">비건 바코드</string>
+    <string name="menu_recipe">비건 가이드</string>
+    <string name="menu_setting">설정 변경</string>
+
+
+    <string name="barcode_name">바코드 이름</string>
+    <string name="barcode_url">URL</string>
+    <string name="barcode_number">코드 넘버</string>
+    <string name="barcode_scan">스캔</string>
+    <string name="PlacePicker" />
+    <string name="find_restaurant">find restaurant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

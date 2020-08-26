@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="543dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ba"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="비건"></Button>
+
+        <Button
+            android:id="@+id/bb"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="락토"></Button>
+
+        <Button
+            android:id="@+id/bc"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:text="락토오보"></Button>
+
+        <Button
+            android:id="@+id/bd"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="페스코"></Button>
+
+        <Button
+            android:id="@+id/be"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세미"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bf"
+            android:text="논비건"
+            ></Button>
+    </LinearLayout>
+</LinearLayout>
+

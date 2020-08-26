@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/guidetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★ 채식 6단계 ★"
+        android:textColor="#438D13"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guide"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자신의 채식 단계에 맞추어 식품을 소비하고, 섭취합시다!"
+        android:paddingBottom="45dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★ 초록호록 앱 사용법 ★"
+        android:textColor="#438D13"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/td"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F5EDED"
+        android:lineSpacingExtra="3dp"
+        android:padding="10dp"
+        android:text="1. 비건 다이어리\n\n - 해당 날짜에 아침, 점심, 저녁, 간식으로 어떻게 식사를 했는지 사진과 텍스트로 기록을 해줍니다.
+        \n- 나의 채식단계에 맞게 식사를 했는지 점검하기 위해 비건, 락토, 락토오보, 페스코, 세미, 논비건 6개의 스탬프 중 하나를 선택합니다.\n"></TextView>
+
+    <TextView
+        android:id="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EBF7F7"
+        android:lineSpacingExtra="3dp"
+        android:padding="10dp"
+        android:text="2. 비건 식당\n\n - 전국의 채식이 가능한 식당을 구글 맵으로 보여줍니다. 지역을 검색하면 (ex.숙대) 해당 위치로 이동하여 근처의 식당을 알아볼 수 있습니다.
+         \n - 파랑핀: 비건 / 초록핀: 비건옵션 / 노랑핀: 페스코 / 빨강핀: 페스코옵션
+         \n - 원하는 식당을 즐겨찾기에 추가하여 이용할 수 있습니다.\n"></TextView>
+
+    <TextView
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E9F1D8"
+        android:lineSpacingExtra="3dp"
+        android:padding="10dp"
+        android:text="3. 비건 바코드\n\n - 식품을 구매할 때, 어떤 채식 단계에 해당하는지 바코드를 스캔하여 확인해줍니다.
+        \n - HACCP 식품에 한해 검색 가능합니다. 6단계로 분류되며, 해당 식품의 사진, 제품명, 비건 단계, 원재료를 보여줍니다.
+        \n- 스캔이 안되는 경우, 직접 입력이 가능하며 바코드의 숫자 일부 훼손으로 알 수 없는 경우 바코드 번호의 일부분만 검색해도 후보를 출력합니다.\n"></TextView>
+</LinearLayout>
+</ScrollView>

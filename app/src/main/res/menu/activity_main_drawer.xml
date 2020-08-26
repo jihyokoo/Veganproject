@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="메인화면"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_black_24dp"/>
+
+        <item android:title="다이어리"
+            android:id="@+id/nav_diary"
+            android:icon="@drawable/ic_menu_gallery" />
+
+        <item android:title="비건 지도 안내"
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_slideshow"/>
+
+        <item android:title="비건 바코드"
+            android:id="@+id/nav_barcode"
+            android:icon="@drawable/ic_menu_manage"/>
+
+        <item android:title="비건 가이드"
+            android:id="@+id/nav_recipe"
+            android:icon="@drawable/ic_menu_share" />
+    </group>
+
+<!--    <item android:title="Setting">-->
+<!--        <menu>-->
+<!--            <item android:title="설정변경"-->
+<!--                android:id="@+id/nav_setting"-->
+<!--                android:icon="@drawable/ic_menu_send" />-->
+
+<!--        </menu>-->
+
+
+
+<!--    </item>-->
+
+</menu>
